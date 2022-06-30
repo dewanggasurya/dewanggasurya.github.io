@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+ font-family: 'Open Sans', 'Sans-serif';
+}
+
+th{
+    background: #E8E8E8;
+    font-weight: bold;
+}
+
+td, th{
+    border-color: #DCDCDC;    
+    padding: 5px;
+}
+pre, code{
+    font-family: 'Fira Code';
+    font-family: 'Fira Code';
+    line-height: 1.5em;
+    background: whitesmoke;
+    padding: 10px;
+    position: relative;
+}
+
+pre::before, code::before{
+    content: " ";
+    width: 20px;
+    display: block;
+    background: darkgrey;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
