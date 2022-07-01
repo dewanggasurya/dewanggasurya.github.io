@@ -16,11 +16,16 @@ td, th{
     border-color: #DCDCDC;    
     padding: 5px;
 }
+
 pre, code{
     font-family: 'Fira Code';
-    font-family: 'Fira Code';
+    font-family: 'Fira Code';    
+    background: whitesmoke;    
+    padding: 0 5px;
+}
+
+pre{   
     line-height: 1.5em;
-    background: whitesmoke;
     padding: 10px 10px 10px 20px;
     position: relative;
     width: calc(100% - 10px - 20px);
@@ -28,7 +33,7 @@ pre, code{
     font-size: 14px;
 }
 
-pre::before, code::before{
+pre::before{
     content: " ";
     width: 10px;
     display: block;
