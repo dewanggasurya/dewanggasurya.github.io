@@ -23,6 +23,9 @@ pre, code{
     background: whitesmoke;
     padding: 10px 10px 10px 20px;
     position: relative;
+    width: calc(100% - 10px - 20px);
+    overflow-x: auto;
+    font-size: 14px;
 }
 
 pre::before, code::before{
